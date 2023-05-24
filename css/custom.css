@@ -1,0 +1,190 @@
+/* 亮色模式首页文章栏背景透明 */
+[data-theme="light"] #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+  background: rgba(255, 255, 255, 0.7)
+}
+
+/* 亮色模式侧边栏透明 */
+[data-theme="light"] #aside-content .card-widget {
+  background: rgba(255, 255, 255, 0.7)
+}
+
+/* 亮色文章页面正文背景 */
+[data-theme="light"] div#post {
+  background: rgba(255, 255, 255, 0.7)
+}
+
+/* 亮色模式分页页面 */
+[data-theme="light"] div#page {
+  background: rgba(255, 255, 255, 0.7)
+}
+
+/* 归档页面 */
+[data-theme="light"] div#archive {
+  background: rgba(255, 255, 255, 0.7)
+  }
+  
+/* 标签页面 */
+[data-theme="light"] div#tag {
+  background: rgba(255, 255, 255, 0.7)
+}
+  
+/* 分类页面 */
+[data-theme="light"] div#category {
+  background: rgba(255, 255, 255, 0.7)
+}
+/* 关于页面 */  
+[data-theme="light"] div#about {
+  background: rgba(255, 255, 255, 0.7)
+}
+/* 联系页面 */  
+[data-theme="light"] div#contact {
+  background: rgba(255, 255, 255, 0.7)
+}
+/* 友联页面 */
+[data-theme="light"] div#link {
+  background: rgba(255, 255, 255, 0.7)
+}
+
+/* 暗色模式首页文章栏背景透明 */
+[data-theme="dark"] #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+  background: rgba(0,0,0,0.5)
+}
+
+/* 暗色模式侧边栏透明 */
+[data-theme="dark"] #aside-content .card-widget {
+  background: rgba(0, 0, 0, 0.5)
+}
+
+/* 暗色文章页面正文背景 */
+[data-theme="dark"] div#post {
+  background: rgba(0, 0, 0, 0.5)
+}
+
+/* 暗色模式分页页面 */
+[data-theme="dark"] div#page {
+  background: rgba(0,0,0,0.5)
+}
+
+/* 归档页面 */
+[data-theme="dark"] div#archive {
+  background: rgba(0,0,0,0.5)
+  }
+  
+/* 标签页面 */
+[data-theme="dark"] div#tag {
+  background: rgba(0,0,0,0.5)
+}
+  
+/* 分类页面 */
+[data-theme="dark"] div#category {
+  background: rgba(0,0,0,0.5)
+}
+/* 关于页面 */  
+[data-theme="dark"] div#about {
+  background: rgba(0,0,0,0.5)
+}
+/* 联系页面 */  
+[data-theme="dark"] div#contact {
+  background: rgba(0,0,0,0.5)
+}
+/* 友联页面 */
+[data-theme="dark"] div#link {
+  background: rgba(0,0,0,0.5)
+}
+
+
+/* 评论框  */
+.vwrap {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0px 30px 0px;
+}
+
+/* 设置评论框 */
+
+.vcard {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0px 0px 0px;
+}
+
+/* 文章页H1-H6图标样式效果 */
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+  -webkit-animation: ccc 1.6s linear infinite ;
+  animation: ccc 1.6s linear infinite ;
+}
+@-webkit-keyframes ccc {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg)
+  }
+  to {
+      -webkit-transform: rotate(-1turn);
+      transform: rotate(-1turn)
+  }
+}
+@keyframes ccc {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg)
+  }
+  to {
+      -webkit-transform: rotate(-1turn);
+      transform: rotate(-1turn)
+  }
+}
+
+#content-inner.layout h1::before {
+  color: #ef50a8 ;
+  margin-left: -1.55rem;
+  font-size: 1.3rem;
+  margin-top: -0.23rem;
+}
+#content-inner.layout h2::before {
+  color: #fb7061 ;
+  margin-left: -1.35rem;
+  font-size: 1.1rem;
+  margin-top: -0.12rem;
+}
+#content-inner.layout h3::before {
+  color: #ffbf00 ;
+  margin-left: -1.22rem;
+  font-size: 0.95rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h4::before {
+  color: #a9e000 ;
+  margin-left: -1.05rem;
+  font-size: 0.8rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h5::before {
+  color: #57c850 ;
+  margin-left: -0.9rem;
+  font-size: 0.7rem;
+  margin-top: 0.0rem;
+}
+#content-inner.layout h6::before {
+  color: #5ec1e0 ;
+  margin-left: -0.9rem;
+  font-size: 0.66rem;
+  margin-top: 0.0rem;
+}
+
+#content-inner.layout h1:hover, #content-inner.layout h2:hover, #content-inner.layout h3:hover, #content-inner.layout h4:hover, #content-inner.layout h5:hover, #content-inner.layout h6:hover {
+  color: #49b1f5 ;
+}
+#content-inner.layout h1:hover::before, #content-inner.layout h2:hover::before, #content-inner.layout h3:hover::before, #content-inner.layout h4:hover::before, #content-inner.layout h5:hover::before, #content-inner.layout h6:hover::before {
+  color: #49b1f5 ;
+  -webkit-animation: ccc 3.2s linear infinite ;
+  animation: ccc 3.2s linear infinite ;
+}
+
+/* 页面设置icon转动速度调整 */
+#rightside_config i.fas.fa-cog.fa-spin {
+  animation: fa-spin 5s linear infinite ;
+}
