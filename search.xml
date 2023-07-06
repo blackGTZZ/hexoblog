@@ -80,9 +80,9 @@
       
         <tags>
             
-            <tag> web </tag>
-            
             <tag> CTF </tag>
+            
+            <tag> web </tag>
             
             <tag> CTFHUB </tag>
             
@@ -113,11 +113,11 @@
       
         <tags>
             
-            <tag> web </tag>
+            <tag> docker </tag>
             
             <tag> CTF </tag>
             
-            <tag> docker </tag>
+            <tag> web </tag>
             
         </tags>
       
